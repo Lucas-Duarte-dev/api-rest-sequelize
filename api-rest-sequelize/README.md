@@ -7,30 +7,30 @@ Aprender mais sobre a criação de api com express e entender a lógica de cria�
 ## Como Rodas na sua maquina
 
 
-    <li>Primeiro faça o clone do projeto na sua maquina</li>
-    ```
+    1- Primeiro faça o clone do projeto na sua maquina
+    ```javascript
     git clone ""
     cd api-rest-sequelize
     code . 
     ```
-    <li>Após fazer o clone baixe as dependências do projeto usando:</li>
+    2- Após fazer o clone baixe as dependências do projeto usando:
     `yarn install` ou `npm i`
-
-    <li>Crie uma pasta chamada `auth` e nele adicione um arquivo `db-auth.json` ou qualquer outro nome e coloque essas informações </li>
-     ```
-    {
-        "dialect": "SGBD que está usando",
-        "host": "localhost" /* Padrão */,
-        "username": "Usuário do seu banco de dados",
-        "password": "Senha do seu banco de dados",
-        "database": "Nome do seu banco de dados"
-    }
+    
+    3- Crie uma pasta chamada `auth` e nele adicione um arquivo `db-auth.json` ou qualquer outro nome e coloque essas informações
+     ```json
+        {
+            "dialect": "SGBD que está usando",
+            "host": "localhost" /* Padrão */,
+            "username": "Usuário do seu banco de dados",
+            "password": "Senha do seu banco de dados",
+            "database": "Nome do seu banco de dados"
+        }
     ```
-    ,porem não esqueça de importar o mesmo no index da pasta database e adicionar esse arquivo no `const connection = new Sequelize(arquivo json de configurações do banco de dados);`
+    ,porem não esqueça de importar o mesmo no index da pasta database e adicionar esse arquivo no 
+    `const connection = new Sequelize(arquivo json de configurações do banco de dados);`
 
-    <li>Com tudo isso você pode fazer o que quiser com o código 😁</li>
+    4- Com tudo isso você pode fazer o que quiser com o código 😁
 
-</ul>
 
 ## Tecnologias e Dependências
 
