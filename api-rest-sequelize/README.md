@@ -8,7 +8,7 @@ Aprender mais sobre a criação de api com express e entender a lógica de cria�
 
 1- Primeiro faça o clone do projeto na sua maquina
 ```
-    git clone ""
+    git clone git@github.com:Lucas-Duarte-dev/api-rest-sequelize.git
     cd api-rest-sequelize
     code . 
 ```
